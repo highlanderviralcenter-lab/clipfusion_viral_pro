@@ -1,0 +1,28 @@
+# ClipFusion Viral Pro — Configurações do usuário
+
+# Anti-copyright padrão: none | basic | anti_ai | maximum
+ace_level: basic
+
+# Modelo Whisper padrão: tiny | base | small
+whisper_model: tiny
+
+# Idioma da transcrição
+language: pt
+
+# VA-API (aceleração Intel HD 520)
+use_vaapi: true
+
+# Legenda animada nos cortes
+subtitles: true
+subtitle_font_size: 22
+subtitle_color: white    # white | yellow
+subtitle_position: bottom  # bottom | center
+
+# Plataformas ativas por padrão
+platforms:
+  - tiktok
+  - reels
+  - shorts
+
+# Pasta de saída (vazio = mesma pasta do vídeo)
+output_dir: ""
